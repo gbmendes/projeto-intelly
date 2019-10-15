@@ -9,7 +9,7 @@ $(document).ready(function () {
 
         $('#results').DataTable({
             data : encomendas,
-            lengthMenu: [[4, 10, 25, 50, -1], [4, 10, 25, 50, "All"]],
+            lengthMenu: [[4, 10], [4, 10]],
             pageLength: 4,
             columns : [
                 { data : "id" },
